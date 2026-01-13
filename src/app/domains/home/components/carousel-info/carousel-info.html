@@ -1,0 +1,25 @@
+<section class="carousel-info bg-white py-8 md:py-12 lg:py-24">
+  <article class="mx-auto max-w-[1542px] px-4 sm:px-6 md:px-8">
+    
+    <header class="mb-8 space-y-4 lg:mb-12">
+      <h2 class="text-[30px]/[32px] font-bold sm:text-[48px]/[58px]">
+        {{ title() }}
+      </h2>
+      <p class="text-base/6 font-normal text-neutral-600">
+        {{ description() }}
+      </p>
+    </header>
+
+    @if (items().length > 0) {
+      <div class="carousel-info__container">
+        <owl-carousel-o [options]="carouselOptions">
+          @for (item of items(); track item.id) {
+            <ng-template carouselSlide [id]="item.id">
+              <app-carousel-item [item]="item" />
+            </ng-template>
+          }
+        </owl-carousel-o>
+      </div>
+    }
+  </article>
+</section>

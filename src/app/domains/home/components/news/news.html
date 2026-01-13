@@ -1,0 +1,45 @@
+<section class="bg-white py-8 md:py-12 lg:py-24">
+  <article class="mx-auto max-w-[1542px] px-4 sm:px-6">
+    <!-- Header -->
+    <div class="mb-12 space-y-4">
+      <h2 class="text-[30px]/[32px] font-bold sm:text-[48px]/[58px]">
+        Lorem ipsum dolor sit
+      </h2>
+      
+      <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+        <p class="text-base/6 font-normal md:text-lg/[27px]">
+          Lorem ipsum dolor sit
+        </p>
+        
+        <!-- Buscador -->
+        <div class="relative w-full md:w-72">
+          <svg 
+            class="cursor-pointer absolute left-4 top-1/2 size-5 -translate-y-1/2 text-[#1C274C]" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            stroke="currentColor" 
+            stroke-width="2"
+          >
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.3-4.3"/>
+          </svg>
+          <input 
+            type="search" 
+            placeholder=""
+            class=" w-full rounded-xl border-none bg-neutral-100 py-3 pl-12 pr-4 text-base/6 outline-none transition-colors focus:bg-neutral-200"
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      @for (newsItem of newsItems(); track newsItem.id) {
+        <app-new-item [item]="newsItem" />
+      } @empty {
+        <p class="col-span-full text-center text-neutral-500">
+          No hay noticias disponibles
+        </p>
+      }
+    </div>
+  </article>
+</section>

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "news-001",
+    "category": "Lorem ipsum dolor sit amet.",
+    "title": "Vestibulum auctor ornare leo non suscipit magna interdum.",
+    "description": "Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum vel euismod.",
+    "imageUrl": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imageAlt": "Habitación moderna con vista panorámica"
+  },
+  {
+    "id": "news-002",
+    "category": "Sed do eiusmod tempor.",
+    "title": "Maecenas vitae mattis tellus nullam quis imperdiet augue diam.",
+    "description": "Ut et massa mi aliquam in hendrerit urna pellentesque sit amet. Sapien fringilla mattis ligula consectetur ultrices mauris maecenas vitae. Nullam quis imperdiet augue vestibulum auctor ornare leo non suscipit. Curabitur pellentesque nibh nibh maximus ante fermentum sit amet pellentesque commodo lacus sodales quisque sagittis.",
+    "imageUrl": "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imageAlt": "Suite de lujo con decoración elegante"
+  },
+  {
+    "id": "news-003",
+    "category": "Incididunt ut labore.",
+    "title": "Quisque sagittis orci diam condimentum vel euismod erat placerat.",
+    "description": "Aliquam in hendrerit urna pellentesque sit amet sapien fringilla mattis. Ligula consectetur ultrices mauris maecenas vitae mattis tellus nullam. Quis imperdiet augue vestibulum auctor ornare leo non suscipit magna. Interdum eu curabitur pellentesque nibh nibh maximus ante fermentum sit amet pellentesque commodo lacus sodales sodales quisque.",
+    "imageUrl": "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imageAlt": "Dormitorio minimalista con iluminación natural"
+  },
+  {
+    "id": "news-004",
+    "category": "Dolore magna aliqua.",
+    "title": "Curabitur pellentesque nibh maximus ante fermentum sit amet.",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod. Tempor incididunt ut labore et dolore magna aliqua enim ad minim. Veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea. Commodo consequat duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur.",
+    "imageUrl": "https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imageAlt": "Habitación boutique con detalles artesanales"
+  },
+  {
+    "id": "news-005",
+    "category": "Ut enim ad minim.",
+    "title": "Pellentesque commodo lacus sodales quisque sagittis orci diam.",
+    "description": "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia. Deserunt mollit anim est laborum sed ut perspiciatis unde omnis iste. Natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam. Eaque ipsa quae ab illo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo nemo quisquam.",
+    "imageUrl": "https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imageAlt": "Suite presidencial con área de estar"
+  },
+  {
+    "id": "news-006",
+    "category": "Veniam quis nostrud.",
+    "title": "Nullam quis imperdiet augue vestibulum auctor ornare leo non.",
+    "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut. Fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi. Nesciunt neque porro quisquam est qui dolorem ipsum quia dolor sit. Amet consectetur adipisci velit sed quia non numquam eius modi tempora incidunt ut labore dolore magnam aliquam quaerat.",
+    "imageUrl": "https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "imageAlt": "Habitación contemporánea con balcón privado"
+  }
+]

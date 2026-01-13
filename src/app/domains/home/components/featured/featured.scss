@@ -1,0 +1,20 @@
+
+$card-image-url: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg';
+
+.card-image {
+  background-image: url('#{$card-image-url}?auto=compress&cs=tinysrgb&w=800');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #d4d4d4; // Fallback mientras carga
+
+  // Tablet (sm: 640px+)
+  @media (min-width: 640px) {
+    background-image: url('#{$card-image-url}?auto=compress&cs=tinysrgb&w=1260');
+  }
+
+  // Desktop (lg: 1024px+)
+  @media (min-width: 1024px) {
+    background-image: url('#{$card-image-url}?auto=compress&cs=tinysrgb&w=1920');
+  }
+}

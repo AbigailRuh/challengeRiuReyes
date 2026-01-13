@@ -1,0 +1,98 @@
+:host {
+  display: block;
+}
+
+::ng-deep .owl-carousel {
+  .owl-stage {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .owl-item {
+    display: flex;
+    
+    > * {
+      width: 100%;
+    }
+  }
+
+  .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+
+    .owl-prev,
+    .owl-next {
+      pointer-events: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      background-color: white;
+      border: 1px solid #e5e5e5;
+      border-radius: 50%;
+      box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+      transition: all 0.2s ease;
+      color: #404040;
+
+      &:hover:not(.disabled) {
+        background-color: #fafafa;
+        box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+      }
+
+      &.disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+      }
+    }
+
+    .owl-prev {
+      margin-left: -22px;
+    }
+
+    .owl-next {
+      margin-right: -22px;
+    }
+  }
+}
+
+@media (max-width: 639px) {
+  ::ng-deep .owl-carousel .owl-nav {
+    display: none;
+  }
+}
+
+.carousel-info__container {
+  overflow: visible;
+  margin-left: -16px;
+  margin-right: -16px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  @media (min-width: 640px) {
+    margin-left: -24px;
+    margin-right: -24px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  @media (min-width: 1280px) {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+}
+
+::ng-deep .owl-carousel .owl-stage {
+  @media (max-width: 1023px) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
